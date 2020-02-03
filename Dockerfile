@@ -1,7 +1,5 @@
 FROM node:alpine as build
 
-ARG API_URL
-
 WORKDIR /build
 COPY package.json package-lock.json /build/
 RUN npm ci
