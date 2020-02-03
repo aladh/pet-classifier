@@ -20,7 +20,7 @@
 
 		el('analyze-button').innerHTML = 'Analyzing...';
 		var xhr = new XMLHttpRequest();
-		xhr.open('POST', 'analyze', true);
+		xhr.open('POST', 'analyze/', true);
 		xhr.onerror = function() {alert (xhr.responseText);}
 		xhr.onload = function(e) {
 			if (this.readyState === 4) {
