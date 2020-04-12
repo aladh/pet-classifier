@@ -91,7 +91,7 @@
 	}
 
 	.content {
-		margin-top: 8em;
+		margin-top: 6em;
 	}
 
 	.analyze {
